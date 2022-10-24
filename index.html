@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LIS 351  : Introduction to Digital Information Review Website</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+    <nav>
+      <ul>
+        <li><a href = "index.html">Home Page</a></li>
+        <li><a href = "syllabus.html">Syllabus Breakdown</a></li>
+        <li><a href = "resources.html">Outside Resources</a></li>
+      </ul>
+    </nav>
+    </header>
+    <h1>Weekly Notes</h1>
+    <!-- Dropdown menus with notes inside them-->
+    <section class="accordion">
+        <input type="radio" name="collapse" id="handle1" checked="checked">
+        <h2 class="handle">
+          <label for="handle1">
+            Week 1: Computer Hardware: The Basics
+          </label>
+        </h2>
+        <div class="content">
+          <ul>
+            <li>Digital Information: Data stored on computers or similar computer readable forms</li>
+            <li>Reproducible, Easily Shareable, Flexible, Modifiable, Hard to intercept</li>
+            <li>Quantity - Commonly found in very large datasets, everything gathers data on users, and more things are integrating with the web</li>
+            <br>
+            <li>Computers are data processing devices</li>
+            <ul>
+              <li>Input, process, store and output data</li>
+              <li>Hardware</li>
+              <ul>
+                <li>External - I/O Devices: Mouse, Monitor, Printer, Microphone</li>
+                <li>Internal - Process and store data: Drives, Processors, RAM</li>
+              </ul>
+            </ul>
+          </ul>
+          <h3>Outside Readings</h3>
+          <ul>
+            <li><a href="https://www.digitaltrends.com/computing/what-is-a-cpu/">https://www.digitaltrends.com/computing/what-is-a-cpu/</a></li>
+            <li><a href="https://www.digitaltrends.com/computing/what-is-a-hard-drive-your-guide-to-computer-storage/"> https://www.digitaltrends.com/computing/what-is-a-hard-drive-your-guide-to-computer-storage/</a></li>
+            <li><a href="https://729solutions.com/understanding-resolution-vs-pixel-dimension/">https://729solutions.com/understanding-resolution-vs-pixel-dimension/</a></li>
+          </ul> 
+        </div>
+    </section>
+    <section class="accordion">
+        <input type="radio" name="collapse" id="handle2" checked="checked">
+        <h2 class="handle">
+          <label for="handle2">
+            Week 2: Computer Networks and the Internet
+          </label>
+        </h2>
+        <div class="content">
+          <ul>
+            <li><b>Computers Networks</b></li>
+            <ul>
+              <li>Allow for resource sharing and communication, but adds complexity and makes security more difficult</li>
+              <li><b>Client to server Networks</b></li>
+              <ul>
+                <li>Fixed server computer provides services, and clients access said server</li>
+                <li>Centralized system offers faster and more secure data</li>
+                <li>High maintainance costs, and high inital investment</li>
+              </ul>
+              <li><b>Peer to Peer Networks</b></li>
+              <ul>
+                <li>Fluid network of roughly equal computers sharing resources</li>
+                <li>Decentralized, low cost</li>
+                <li>Security and version control become more difficult</li>
+              </ul>
+              <li><b>The Internet</b></li>
+              <ul>
+                <li>Network of networks connecting billions of computers, uses TCP/IP</li>
+                <li><b>TCP/IP</b></li>
+                <ul>
+                  <li>Application: HTTP, Establishes server connections</li>
+                  <li>Transport - TCP, splits request into packets and a checksum</li>
+                  <li>Internet - IP, packets sent over routers</li>
+                  <li>Network - Network Cards, Hardware conberts packet to binary</li>
+                </ul>
+              </ul>
+            </ul>
+          </ul>
+          <h3>Outside Reading</h3>
+          <ul><li><a href="https://beginnersbook.com/2019/03/introduction-to-computer-network/">https://beginnersbook.com/2019/03/introduction-to-computer-network/</a></li></ul>
+        </div>
+    </section>
+    <section class="accordion">
+        <input type="radio" name="collapse" id="handle3" checked="checked">
+        <h2 class="handle">
+          <label for="handle3">
+            Week 3: Website Design: Usability
+          </label>
+        </h2>
+        <div class="content">
+          <ul>
+            <li><b>Web Usability</b> - Measure of how well a user can use a product/design to achieve a goal</li>
+            <ul>
+              <li>Learnable: First time users should be able to quickly complete basic tasks</li>
+              <li>Efficient: Tasks should be quicklu completeable</li>
+              <li>Memorable: Users should be albet to quickly reorient themselves to the website</li>
+              <li>Forgiving: Errors should be quickly resolvable, and shouldn't occur too often</li>
+              <li>Satisfying: Users should enjoy using the system</li>
+            </ul>
+            <li><b>User Experience Design</b> - Process of designing a website for the user</li>
+            <ol>
+              <li>Research - Understand what users need and want</li>
+              <li>Design - Create and interface matching the needs</li>
+              <li>Evaluate - Get feedback on designs</li>
+            </ol>
+            <li><b>Usability Testing</b></li>
+            <ul>
+              <li>Facilitator gives participant tasks on website who then gives feedback on their Experience</li>
+              <li>Factors to consider: Participant background, Facilitator interference, access method/location</li>
+            </ul>
+          </ul>
+          <h3>Outside Reading</h3>
+          <ul>
+            <li><a href="https://webstyleguide.com/7-interface-design.html">https://webstyleguide.com/7-interface-design.html</a></li>
+            <li><a href="http://alistapart.com/article/usability-testing-demystified"> http://alistapart.com/article/usability-testing-demystified</a></li>
+            <li><a href="https://www.optimizesmart.com/pocket-guide-to-usability-testing/">https://www.optimizesmart.com/pocket-guide-to-usability-testing/</a></li>
+          </ul> 
+        </div>
+    </section>
+    <section class="accordion">
+        <input type="radio" name="collapse" id="handle4" checked="checked">
+        <h2 class="handle">
+          <label for="handle4">
+            Week 4: Website Design: HTML
+          </label>
+        </h2>
+        <div class="content">
+          <ul>
+            <li><b>Web Design</b></li>
+            <ol>
+              <li>Planning - Define target audience, create simple organization</li>
+              <li>Design - Create draft layout, determine main colors</li>
+              <li>Development - Write with HTML + CSS</li>
+              <li>Testing - Get user feedback</li>
+              <li>Maintanence - Fix any errors that come up</li>
+            </ol>
+            <li>Web Design Tips - 2-3 colors with high contrast, max 1-2 seconds load time, use a grid based layout, font size 16 with 3 tyepfaces</li>
+            <li>Place your elements in the following order to control their read order</li>
+            <img src="images/F_Pattern.png" alt="Websites are read left to right, top to bottom" width="128" height="128">
+          </ul>
+          <h3>Outside Reading</h3>
+          <ul>
+            <li><a href="https://www.w3schools.com/html/default.asp">https://www.w3schools.com/html/default.asp</a></li>
+          </ul>
+        </div>
+    </section>
+    <section class="accordion">
+        <input type="radio" name="collapse" id="handle5" checked="checked">
+        <h2 class="handle">
+          <label for="handle5">
+            Week 5: Website Design: CSS
+          </label>
+        </h2>
+        <div class="content">
+          <ul>
+            <li><b>CSS</b></li>
+            <ul>
+              <li>Cascading Style Sheets - define how html elements are displayed</li>
+              <li>Used for global definitions, reduces load times, offers more customizability, and maintains concistancy throuhgout a series of conected pages</li>
+              <li>Definitions concist of a selector, followed by properties that you want to change, and the values you want to change them too</li>
+              <img src="images/CSS.png" alt="Example CSS rule: selector {properties: values}" width="256" height="100">
+              <li>Can be attached inline to change a specific line, interally to change a specific page, or externally for use over many pages</li>
+              <ul><li>Precedence: Inline > Internal > External > Browser default</li></ul>
+              <li>Common use for CSS is to order sections, or to define spacing for elements</li>
+              <ul>
+                <li>Ex. In HTML: class = "left" In CSS: .class{float: left;}</li>
+                <li>Padding, Margin, and Border can all be used to increase spacing</li>
+              </ul>
+            </ul>
+          </ul>
+          <h3>Outside Reading</h3>
+          <ul>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS">https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals">https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals</a></li>
+          </ul>
+        </div>
+    </section>
+    <section class="accordion">
+        <input type="radio" name="collapse" id="handle6" checked="checked">
+        <h2 class="handle">
+          <label for="handle6">
+            Week 6: Website Design: Accessibility
+          </label>
+        </h2>
+        <div class="content">
+          <ul>
+            <li><b>Accessibility</b> - Making a website useable by as many people as possible</li>
+            <ul>
+              <li>Perceivable - Content should be percieveable to all senses, including augmented ones : Color shouldn't be used to convey information</li>
+              <li>Understandable - content should be clearly written and organized : Labels or instructions should be provided for input sections</li>
+              <li>Robust - Webpage should be accessible from a wide range of devices : Write good code, have mobile pages</li>
+              <li>Operable - Users should be able to operate all controls such as buttons or input forms : Functionality shouldn't be dependant on input timings</li>
+              <li>Disabilites - <a href="https://www.google.com/url?q=https://www.w3.org/WAI/WCAG21/quickref/&sa=D&source=editors&ust=1666282548332547&usg=AOvVaw0Ym9-fv8t4Q8Q0W3kEvke3">Guide</a></li>
+              <ul>
+                <li>Visual - Color/Full Blindness</li>
+                <li>Hearing - Deafness/Hard of Hearing</li>
+                <li>Mobility - Motor control issues, slowness</li>
+                <li>Cognitive - Learrning or memory disabilites</li>
+              </ul>
+              <li>Do the following</li>
+              <ul>
+                <li>Good text/background contrast</li>
+                <li>Alternative reading - Screen Readers, Captioning</li>
+                <li>Space out important elements</li>
+                <li>Reduce outside dependancies - Ex. Flash</li>
+              </ul>
+            </ul>
+          </ul>
+          <h3>Outside Reading</h3>
+          <ul>
+            <li><a href="https://wave.webaim.org/">https://wave.webaim.org/</a></li>
+            <li><a href="https://journals.uic.edu/ojs/index.php/fm/article/view/6164/4898">https://journals.uic.edu/ojs/index.php/fm/article/view/6164/4898</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility">https://developer.mozilla.org/en-US/docs/Web/Accessibility</a></li>
+          </ul>
+        </div>
+    </section> 
+</body>
+</html>

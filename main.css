@@ -1,0 +1,58 @@
+.accordion > input[name="collapse"] {
+    display: none;
+}
+.accordion label {
+    color: #fff;
+    cursor: pointer;
+    font-weight: normal;
+    padding: 10px;
+    background: #b0100c;
+}
+.accordion label:hover, .accordion label:focus {
+    background: #252525;
+}
+.accordion .content {
+    background: #fff;
+    overflow: hidden;
+    height: 0;
+    transition: 0.5s;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.accordion > input[name="collapse"]:checked ~ .content {
+    height: 380px;
+    transition: height 0.5s;
+}
+
+a {
+    font-style: italic;
+}
+
+body   
+{  
+    height: 125vh;  
+    margin-top: 80px;  
+    padding: 30px;  
+    background-size: cover;  
+    font-family: sans-serif;
+    background-color: lightblue;
+}  
+header {  
+    background-color: orange;  
+    left: 0;  
+    right: 0;  
+    top: 5px;  
+    height: 30px;  
+    display: flex;  
+    align-items: center;  
+    box-shadow: 0 0 25px 0 black;  
+}  
+header * {  
+    display: inline;  
+}  
+header li {  
+    margin: 20px;  
+}  
+header li a {  
+    color: blue;  
+    text-decoration: none;  
+}  
